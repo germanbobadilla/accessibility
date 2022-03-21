@@ -1,5 +1,5 @@
 # Activities
-[Here's](README.md/) to redirect to main readme.
+[Here's](../README.md) to redirect to main readme.
 
 ## Activity 1
 
