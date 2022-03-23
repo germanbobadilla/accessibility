@@ -1,0 +1,7 @@
+button {
+  
+}
+
+button:not([aria-disabled=true]):not([disabled]):not([aria-hidden=true]) {
+  cursor: pointer;
+}

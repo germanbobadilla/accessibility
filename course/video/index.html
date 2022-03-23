@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility Video</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="player">
+    <video controls title="A rabbit running around a house.">
+      <source src="/course/video/media/rabbit320.mp4" type="video/mp4">
+      <source src="/course/video/media/rabbit320.webm" type="video/webm">
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+    </video>  
+    <div class="controls" role="controls">
+      <button class="playpause" aria-label="Pause (k)"><i aria-hidden="true" class="fa-solid fa-play" tabindex="0"></i></button>
+      <button class="stop" aria-label="Stop"><i aria-hidden="true" class="fa-solid fa-stop"></i></button>
+      <button class="rwd" aria-label="Forward"><i aria-hidden="true" class="fa-solid fa-forward"></i></button>
+      <button class="fwd" aria-label="Rewind"><i aria-hidden="true" class="fa-solid fa-backward"></i></button>
+      <div class="time">00:00</div>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
