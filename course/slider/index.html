@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessibility - Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label for="fader">Volume</label>
+    <input
+      type="range"
+      id="fader"
+      min="1"
+      max="100"
+      value="50"
+      step="1"
+      aria-valuemin="1"
+      aria-valuemax="100"
+      aria-valuenow="50"
+      oninput="outputUpdate(value)"
+    />    
+    <output for="fader" id="volume">50</output>
+    <br>
+    <label id="day-label">Days</label>
+    <div class="day-slider">
+      <div
+        id="day-handle"
+        class="day-slider-handle"
+        role="slider"
+        aria-labelledby="day-label"
+        aria-valuemin="1"
+        aria-valuemax="7"
+        aria-valuenow="2"
+        aria-valuetext="Monday"
+      ></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
