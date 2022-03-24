@@ -25,7 +25,7 @@ These include tutorial, how-tos, and explainer articles.
 
 ### Journals
 
-## Accessibilit checker
+## Accessibility checkers and tools
 
 1. Wave's [Evaluation Tool](https://wave.webaim.org/)
 2. Level Access' [Tool](https://www.webaccessibility.com/)
