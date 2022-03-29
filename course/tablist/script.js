@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
       tabs[tabFocus].setAttribute('tabindex', 0);
       tabs[tabFocus].focus();
     }
-  });
+  });  
 });
 
 function changeTabs(e) {
